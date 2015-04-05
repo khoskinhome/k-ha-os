@@ -990,7 +990,8 @@ commit_gpio_output();
             if ( $inORout ) { # so inORout is 1 for inputs ....
                 $gpio_inputs{$port_name} = 1;
 
-                next if ($gpio->{last_change_time} + 0.25 >= Time::HiRes::time() );
+                # there seems to be rounding and losing precision issue on time hires. have to do a full second at present .hmmmm.
+                next if ( $gpio->{last_change_time} + 1 >= Time::HiRes::time() );
 
                 my $port_signature = $gpio->{y}."_${i2cAddr}_${port_register_hexcode}";
 
@@ -1006,7 +1007,8 @@ commit_gpio_output();
 
                 if ( $gpio->{current_state} != $c_st ) {
                     $gpio->{state_changed} = 1;
-                    print "$port_name CHANGED !!\n";
+                    $gpio->{last_change_time} = Time::HiRes::time();
+                    print "$port_name CHANGED !! $gpio->{last_change_time} \n";
                 } else {
                     $gpio->{state_changed} = 0;
                 }
@@ -1014,7 +1016,6 @@ commit_gpio_output();
 
 #                ($s, $usec) = gettimeofday();
 
-                $gpio->{last_change_time} = Time::HiRes::time();
                 $gpio->{current_state} = $c_st;
                 $return_inputs->{$port_name}{current_state} = $c_st;
             }

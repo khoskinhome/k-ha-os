@@ -1,7 +1,9 @@
 ./amelia-light/daemon.pl
 
-./amelia-light/testrig-radiator.pl
+# ./amelia-light/testrig-radiator.pl
 ./amelia-light/testrig-lighting-2relay.pl
+
+./amelia-light/testrig-lighting-on-off-2relay-automated-with-detect.pl
 
 
 
