@@ -226,14 +226,14 @@ td.spacer { width:20;}
    <td align='right'><a href='?all&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON'  ></a></td>
    <td align='left' ><a href='?all&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
    <td class='spacer'></td>
-   <td align='right'><a href='?light1&light4&light7&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON'  ></a></td>
-   <td align='left' ><a href='?light1&light4&light7&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
+   <td align='right'><a href='?light3&light6&light9&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON'  ></a></td>
+   <td align='left' ><a href='?light3&light6&light9&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
    <td class='spacer'></td>
    <td align='right'><a href='?light2&light5&light8&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON'  ></a></td>
    <td align='left' ><a href='?light2&light5&light8&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
    <td class='spacer'></td>
-   <td align='right'><a href='?light3&light6&light9&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON'  ></a></td>
-   <td align='left' ><a href='?light3&light6&light9&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
+   <td align='right'><a href='?light1&light4&light7&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON'  ></a></td>
+   <td align='left' ><a href='?light1&light4&light7&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
 
 </tr>
 
@@ -244,11 +244,11 @@ td.spacer { width:20;}
    <td align='right'><a href='?light1&light2&light3&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON' ></a></td>
    <td align='left' ><a href='?light1&light2&light3&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
    <td class='spacer'></td>
-   <td colspan='2' style='$stylight[1]'><a href='?light1&state=invert&size=$size' accesskey="1" ><img src='$lightimg[1]' height='$heightmain' alt='1' ></a></td>
+   <td colspan='2' style='$stylight[3]'><a href='?light3&state=invert&size=$size' accesskey="3" ><img src='$lightimg[3]' height='$heightmain' alt='3' ></a></td>
    <td class='spacer'></td>
    <td colspan='2' style='$stylight[2]'><a href='?light2&state=invert&size=$size' accesskey="2" ><img src='$lightimg[2]' height='$heightmain' alt='2' ></a></td>
    <td class='spacer'></td>
-   <td colspan='2' style='$stylight[3]'><a href='?light3&state=invert&size=$size' accesskey="3" ><img src='$lightimg[3]' height='$heightmain' alt='3' ></a></td>
+   <td colspan='2' style='$stylight[1]'><a href='?light1&state=invert&size=$size' accesskey="1" ><img src='$lightimg[1]' height='$heightmain' alt='1' ></a></td>
 
 </tr>
 
@@ -259,12 +259,11 @@ td.spacer { width:20;}
    <td align='right'><a href='?light4&light5&light6&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON'  ></a></td>
    <td align='left' ><a href='?light4&light5&light6&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
    <td class='spacer'></td>
-   <td colspan='2' style='$stylight[4]'><a href='?light4&state=invert&size=$size' accesskey="4" ><img src='$lightimg[4]' height='$heightmain' alt='4' ></a></td>
+   <td colspan='2' style='$stylight[6]'><a href='?light6&state=invert&size=$size' accesskey="6" ><img src='$lightimg[6]' height='$heightmain' alt='6' ></a></td>
    <td class='spacer'></td>
    <td colspan='2' style='$stylight[5]'><a href='?light5&state=invert&size=$size' accesskey="5" ><img src='$lightimg[5]' height='$heightmain' alt='5' ></a></td>
    <td class='spacer'></td>
-   <td colspan='2' style='$stylight[6]'><a href='?light6&state=invert&size=$size' accesskey="6" ><img src='$lightimg[6]' height='$heightmain' alt='6' ></a></td>
-
+   <td colspan='2' style='$stylight[4]'><a href='?light4&state=invert&size=$size' accesskey="4" ><img src='$lightimg[4]' height='$heightmain' alt='4' ></a></td>
 </tr>
 
 <tr align='center'><td colspan='11'><img src='/blank.jpg' height='$heightspacer' alt='' ></td> </tr>
@@ -273,11 +272,11 @@ td.spacer { width:20;}
    <td align='right'><a href='?light7&light8&light9&state=1&size=$size'      ><img src='$switchleft' height='$heightmain' alt='ON' ></a></td>
    <td align='left' ><a href='?light7&light8&light9&state=0&size=$size'      ><img src='$switchright' height='$heightmain' alt='OFF' ></a></td>
    <td class='spacer'></td>
-   <td colspan='2' style='$stylight[7]'><a href='?light7&state=invert&size=$size' accesskey="7" ><img src='$lightimg[7]' height='$heightmain' alt='7' ></a></td>
+   <td colspan='2' style='$stylight[9]'><a href='?light9&state=invert&size=$size' accesskey="9" ><img src='$lightimg[9]' height='$heightmain' alt='9' ></a></td>
    <td class='spacer'></td>
    <td colspan='2' style='$stylight[8]'><a href='?light8&state=invert&size=$size' accesskey="8" ><img src='$lightimg[8]' height='$heightmain' alt='8' ></a></td>
    <td class='spacer'></td>
-   <td colspan='2' style='$stylight[9]'><a href='?light9&state=invert&size=$size' accesskey="9" ><img src='$lightimg[9]' height='$heightmain' alt='9' ></a></td>
+   <td colspan='2' style='$stylight[7]'><a href='?light7&state=invert&size=$size' accesskey="7" ><img src='$lightimg[7]' height='$heightmain' alt='7' ></a></td>
 </tr>
 
 <!--
