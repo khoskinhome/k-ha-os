@@ -1153,7 +1153,7 @@ use Data::Dumper;print STDERR "\nvidekahnum dumper of  commands  =".Dumper ($com
         }
 
         commit_gpio_output() if $commit_gpio;
-        usleep 500;
+        usleep 5000;
 
     }
 

@@ -6,7 +6,6 @@
 ./amelia-light/testrig-lighting-on-off-2relay-automated-with-detect.pl
 
 
-
 ./amelia-light/hackit-daemon.pl
 
 ./amelia-light/scan-i2c-mcp23017.pl
@@ -24,3 +23,6 @@
 ./amelia-light/install.bash
 
 ./amelia-light/scp-to-pi2.bash
+
+
+./amelia-light/stdout-json-cfg.pl
