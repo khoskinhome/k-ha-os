@@ -12,7 +12,12 @@ use Data::Dumper;
 use JSON;
 
 my $current_prt_level;
-my $i2c_y = 1; # the i2c bus. some pis have 2 of these.
+my $i2c_y = 1; 
+
+# on piold $i2c_bus_y = 0;
+# on piloft or pimain  $i2c_bus_y = 0;
+
+my $i2c_bus_y = 0; # the i2c bus. some pis have 2 of these.
 
 
 use Getopt::Long;
@@ -87,7 +92,6 @@ my $mcp23017_registers = {
 
 };
 
-my $i2c_bus_y = 1;
 
 my $gpio_conf = {
 
